@@ -1,0 +1,10 @@
+# Ignorar binarios e inicialización de Terraform
+.terraform/
+.terraform.lock.hcl
+
+# Ignorar estados locales de Terraform
+*.tfstate
+*.tfstate.backup
+
+# Ignorar carpetas del sistema
+.vscode/
